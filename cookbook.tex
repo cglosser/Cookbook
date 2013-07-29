@@ -1,11 +1,18 @@
-\documentclass[openany]{book}
+\documentclass{book}
 
 \usepackage[index]{cuisine}
+\usepackage{fancyhdr}
 \usepackage{microtype}
 \usepackage{hyperref}
 
+\pagestyle{fancy}
+
 \begin{document}
 \tableofcontents
+
+\chapter{Breakfast}
+\input{recipes/monkey_bread}
+\input{recipes/pancakes}
 
 \chapter{Snacks}
 \input{recipes/beer_bread}
@@ -13,12 +20,24 @@
 
 \chapter{Dinner}
 \input{recipes/butter_chicken}
+\input{recipes/cheddar_potato_soup}
+\input{recipes/chorizo_spaghetti}
+\input{recipes/honey_chicken}
+\input{recipes/mac_and_cheese}
+\input{recipes/paella}
 \input{recipes/stuffed_bell_peppers}
+\input{recipes/white_chicken_chilli}
+
+\chapter{Drinks}
+\input{recipes/dawa}
 
 \chapter{Dessert}
+\input{recipes/bananna_cookies}
 \input{recipes/blackberry_crisp}
 \input{recipes/champion_chocolate_chip_cookies}
+\input{recipes/crockpot_pumpkin_bread}
 \input{recipes/keweenaw_blueberry_muffins}
+\input{recipes/truffle_frosting}
 
 \end{document}
 
